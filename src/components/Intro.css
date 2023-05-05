@@ -1,0 +1,47 @@
+.intro-wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/170031352/photo/graduated-silky-smoke-from-blue-to-pink.jpg?b=1&s=612x612&w=0&k=20&c=GS-r0iDF9MZE3TntUGJfQKQu02ZzZqFrj60GUr3IzKo=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black;
+    box-sizing: border-box; */
+    flex-direction: column;
+}
+
+.intro__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-20px);
+}
+
+.intro__animation > img{
+    object-fit: contain;
+    height: 300px;
+}
+
+.intro__info__name{
+    color: lightblue;
+}
+
+.intro__info__buttons{
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.intro__info__buttons:hover{
+    color: black !important;
+    cursor: pointer;
+}

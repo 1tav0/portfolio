@@ -1,0 +1,13 @@
+.aboutme{
+    display: flex;
+    justify-content: column;
+}
+
+.aboutme__info{
+    flex: 0.5;
+    color: red;
+}
+
+.aboutme__skills{
+    flex: 0.5;
+}
