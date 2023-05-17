@@ -32,6 +32,9 @@
 .aboutme__info__icons{
     display: flex;
     justify-content: flex-end;
-    margin: 20px;
-    
+    margin: 20px;  
+}
+
+.aboutme__info__icons > *{
+    margin-right: 15px;
 }
