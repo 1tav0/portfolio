@@ -28,3 +28,10 @@
     background-color: #BBB9B3;
     height: 300px;
 }
+
+.aboutme__info__icons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    
+}

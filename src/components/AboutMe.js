@@ -2,6 +2,8 @@ import React from 'react'
 import result from '../images/result.png'
 import './AboutMe.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const AboutMe = () => {
   return (
       <div className="aboutme">
@@ -13,7 +15,11 @@ const AboutMe = () => {
                       I enjoy engaging in problem-solving and implementing popular algorithms from websites like LeetCode. I love creating modern and user-friendly applications that solve real-life problems through software.
                       Overcoming the adversities that come with each project is the most exciting part for me, and achieving the desired results gives me a great sense of accomplishment.
                   </p>
-                  <GitHubIcon />
+                  <div className="aboutme__info__icons">
+                    <GitHubIcon />
+                    <YouTubeIcon />
+                    <LinkedInIcon />
+                  </div>
               </div>
               <img src={result} alt="" />
             </div>
