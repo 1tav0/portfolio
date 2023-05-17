@@ -13,6 +13,12 @@
     padding: 50px;
 }
 
+.aboutme__info>p{
+    font-size: x-small;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
 .aboutme__left{
     background-color: white;
     display: flex;
