@@ -1,0 +1,62 @@
+.projectCard__rev__wrapper{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.project__card__parent{
+    /* background-color: purple; */
+    display: flex;
+    width: 35%;
+    gap: 30px;
+}
+
+.project__card__parent > img{
+    height:300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.project__card__leftside{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 10px;
+}
+
+.project__card__title{
+    display: flex;
+}
+
+.project__card__middle{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.project__card__tech{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project__card__bottom{
+    display: flex;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+
+.project__card__bottom__icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.project__card__bottom__icon>h3{
+    font-size: x-small;
+}
