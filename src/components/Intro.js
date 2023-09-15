@@ -4,15 +4,17 @@ import neatDesk from '../images/neatdesk.jpg'
 
 const Intro = () => {
   return (
-    <div className="intro-wrapper">
-      <div className="intro__title">
-        <h1>Octavio Cruz</h1>
-        <p>My Work Showcase</p>
+    <section id="intro">
+      <div className="intro__wrapper">
+        <div className="intro__title">
+          <h1>Octavio Cruz Ortega</h1>
+          <p>Full Stack Software Developer</p>
+        </div>
+        <div className="intro__picture">
+          <img src={neatDesk} alt="desk" />
+        </div>
       </div>
-      <div className="intro__picture">
-        <img src={neatDesk} alt="desk" />
-      </div>
-    </div>
+    </section>
   )
 }
 
