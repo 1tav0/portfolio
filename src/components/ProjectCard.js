@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import './ProjectCard.css'
-const ProjectCard = ({ title, icon, photo, description }) => {
+const ProjectCard = ({ title, icon, photo, description, tech1, tech2, tech3, tech4 }) => {
   return (
     <div className='project__card__wrapper'>
         <div className="project__card">
@@ -15,10 +15,10 @@ const ProjectCard = ({ title, icon, photo, description }) => {
                     <div className="projectCard__rightSide__center">
                           <p>{description}</p>
                         <div className='project__card__tech'>
-                            <h3>MongoDB</h3>
-                            <h3>Express</h3>
-                            <h3>React</h3>
-                            <h3>Nodejs</h3>
+                            <h3>{ tech1 }</h3>
+                            <h3>{ tech2 }</h3>
+                            <h3>{ tech3 }</h3>
+                            <h3>{ tech4 }</h3>
                         </div>
                     </div>
                     <div className="projectCard__icons">

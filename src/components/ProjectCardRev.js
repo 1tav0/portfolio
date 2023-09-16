@@ -2,27 +2,21 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import './ProjectCardRev.css'
-import MERNIG from '../images/MERNIG.png'
-const ProjectCardRev = () => {
+const ProjectCardRev = ({ title, icon, photo, description, tech1, tech2, tech3, tech4 }) => {
   return (
     <div className="projectCard__rev__wrapper">
         <div className="project__card__parent">
             <div className="project__card__leftside">
                 <div className="project__card__title">
-                    <h3>MernIG</h3> <GitHubIcon/>
+                      <h3>{title}</h3> {icon}
                 </div>
                 <div className="project__card__middle">
-                    <p>
-                        This is a Instagram like socila media platform where a user 
-                        is able to do all the functionaltioes of the real instagram such
-                        as follow/unfollow user, upload pictures as posts, like/unlike a posts
-                        and have a followers feed for the logged in user
-                    </p>
+                    <p>{description}</p>
                     <div className="project__card__tech">
-                        <h3>MongoDB</h3>
-                        <h3>MongoDB</h3>
-                        <h3>MongoDB</h3>
-                        <h3>MongoDB</h3>
+                        <h3>{ tech1 }</h3>
+                        <h3>{ tech2 }</h3>
+                        <h3>{ tech3 }</h3>
+                        <h3>{ tech4 }</h3>
                     </div>
                 </div>
                 <div className="project__card__bottom">
@@ -34,7 +28,7 @@ const ProjectCardRev = () => {
                     </div>
                 </div>
             </div>
-            <img src={MERNIG} alt="" />
+            <img src={photo} alt="" />
         </div>
     </div>
   )
