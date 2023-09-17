@@ -5,6 +5,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const AboutMe = () => {
+
+  const githubProfileUrl = 'https://github.com/1tav0';
+  const LinkedIn = 'https://www.linkedin.com/in/octavio-cruz-ortega-8613b822b/';
+
   return (
     <section id="aboutme">
       <div className="aboutme">
@@ -17,9 +21,13 @@ const AboutMe = () => {
                       Overcoming the adversities that come with each project is the most exciting part for me, and achieving the desired results gives me a great sense of accomplishment.
                   </p>
                   <div className="aboutme__info__icons">
-                    <GitHubIcon />
+                    <a href={githubProfileUrl} target="_blank" rel="noopener noreferrer" >
+                      <GitHubIcon />
+                    </a>
                     <YouTubeIcon />
-                    <LinkedInIcon />
+                    <a href={LinkedIn} target="_blank" rel="noopener noreferrer">
+                      <LinkedInIcon />
+                    </a>
                   </div>
               </div>
               <img src={result} alt="" />
