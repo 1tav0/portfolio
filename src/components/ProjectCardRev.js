@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import './ProjectCardRev.css'
-const ProjectCardRev = ({ title, icon, photo, description, tech1, tech2, tech3, tech4 }) => {
+const ProjectCardRev = ({ title, icon, photo, description, tech1, tech2, tech3, tech4, gitHubUrl }) => {
   return (
     <div className="projectCard__rev__wrapper">
         <div className="project__card__parent">
@@ -21,7 +21,9 @@ const ProjectCardRev = ({ title, icon, photo, description, tech1, tech2, tech3, 
                 </div>
                 <div className="project__card__bottom">
                     <div className="project__card__bottom__icon">
-                        <h3>Code</h3> <GitHubIcon />
+                        <a href={gitHubUrl} target="_blank" rel="noopener noreferrer" className="project__card__bottom__icon">
+                            <h3>Code</h3> <GitHubIcon />
+                        </a>
                     </div>
                     <div className="project__card__bottom__icon">
                         <h3>Live Code</h3> <OpenInNewIcon />
