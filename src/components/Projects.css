@@ -1,21 +1,33 @@
 .projects__title{
     color: #3691FF;
-    font-size: xx-large;
+    font-size: small;
 }
 
+.projects__wrapper__content{
+    display: flex;
+    flex-direction: row;
+}
+
+.projects__wrapper__content>h3{
+    font-size: medium;
+}
 .projects__wrapper{
     /* background-color: red; */
     display: flex;
     flex-direction: column;
 }
 
+.projects__wrapper__parent{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
 .projects__wrapper__content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    /* background-color: black; */
+    width: 35%;
+    color: white;
 
-.projects__card{
-    display: flex;
-    background-color: green;
 }
