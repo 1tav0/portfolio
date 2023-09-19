@@ -21,17 +21,19 @@ const Header = () => {
   return (
     <div className={`header ${show && "header__black"}`}>
         <div className="header__wrapper">
-          <div className="header__logo">
-              <AutoAwesomeMotionIcon />
-              <h2><a href="#intro">1Tav0Code</a></h2>
-          </div>
-          <div className="header__info">
-              <h6><a href="#aboutme">About Me</a></h6>
-              <h6><a href="#skills">Skills </a></h6>
-              <h6><a href="#projects">Projects </a></h6>
-              <h6><a href="#contactme">ContactMe </a></h6>
-              <YouTubeIcon/>
-          </div>
+            <div className="header__parent">
+                <div className="header__logo">
+                    <AutoAwesomeMotionIcon />
+                    <h2><a href="#intro" className="logo">1Tav0Code</a></h2>
+                </div>
+                <div className="header__info">
+                    <h6><a href="#aboutme" className='button'>About Me</a></h6>
+                    <h6><a href="#skills" className='button'>Skills </a></h6>
+                    <h6><a href="#projects" className='button'>Projects </a></h6>
+                    <h6><a href="#contactme" className='button'>ContactMe </a></h6>
+                    <YouTubeIcon/>
+                </div>
+            </div>
         </div>
     </div>
   )
