@@ -2,7 +2,7 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import './ProjectCard.css'
-const ProjectCard = ({ title, icon, photo, description, tech1, tech2, tech3, tech4, gitHubUrl }) => {
+const ProjectCard = ({ title, icon, photo, description, tech1, tech2, tech3, tech4, gitHubUrl, liveLinkUrl }) => {
   return (
     <div className='project__card__wrapper'>
         <div className="project__card">
@@ -28,7 +28,9 @@ const ProjectCard = ({ title, icon, photo, description, tech1, tech2, tech3, tec
                             </a>
                         </div>
                         <div className="projectCard__icons__div">
-                            <h6>Live Demo</h6><OpenInNewIcon />
+                            <a href={liveLinkUrl} target="_blank" rel="noopener noreferrer" className="projectCard__icons__div">
+                                <h6>Live Demo</h6><OpenInNewIcon />
+                            </a>
                         </div>
                     </div>
                 </div> 

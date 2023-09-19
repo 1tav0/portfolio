@@ -50,16 +50,19 @@ const Projects = () => {
           description="This is a Facebook clone that uses Google Authentication to sign in, Firebase hosting, FireStore, Redux, Material UI, React + React Hooks, & React flip move animation."
           tech1="Firebase" tech2="React" tech3="Redux" tech4="Material UI"
           gitHubUrl="https://github.com/1tav0/Facebook-Clone"
+          liveLinkUrl="https://facebook-clone-98641.firebaseapp.com/"
         />
         <ProjectCard photo={gmail} title="GmailClone" icon={<EmailIcon />}
           description = "This is a gmail clone with real time functionality to compose and send a new email that will be displayed live in the inbox incoming emails."
           tech1="Firebase" tech2="React" tech3="Material UI" tech4="Google Authentication"
           gitHubUrl="https://github.com/1tav0/gmail-clone"
+          liveLinkUrl = "https://clone-df459.firebaseapp.com/"
         />
         <ProjectCardRev photo={Amazon} title="Amazon" icon={<ShoppingCartIcon />}
           description="This is a full-stack Amazon clone with front-end and back-end functionality using ReactJS, Webhooks, Stripe Checkout, Firestore, Firebase hosting, and Firebase Google Authentication. The back-end API is built using Node.js with Express, and the server-side functionality is tested locally using Firebase Functions Emulators."
           tech1="Firebase" tech2="Express" tech3="React" tech4="Nodejs"
           gitHubUrl="https://github.com/1tav0/FullStack-Amazon-Clone"
+          liveLinkUrl="https://main.dpkt57vfiw1gv.amplifyapp.com/"
         />
         <ProjectCard photo={Bank} title="Blood Bank Hospital" icon={<BloodtypeIcon />}
           description = "This is a Blood Bank Hospital user Interface with full functionality to donate blood and become organized based on blood type and amount of blood donated, and hospital interface where a hospital is able to view how much blood and type is being donated to it and taken out from it."
@@ -70,6 +73,7 @@ const Projects = () => {
           description="This is a Netflix clone interface that has real time data being accessed from a movie data base depending on the location of the user."
           tech1="Firebase" tech2="React" tech3="Material UI" tech4="Axios"
           gitHubUrl="https://github.com/1tav0/Netflix-clone"
+          liveLinkUrl="https://main.d1zfz2ebf29w4c.amplifyapp.com/"
         />
         <ProjectCard photo={Chat} title="Chat" icon={<ChatIcon />}
           description = "This is MERN full stack chat application where a user can log in create a room chat and another user can log in and join the chat room to message each other."
@@ -80,11 +84,13 @@ const Projects = () => {
           description="This is a Slack Clone app that works in real time. The app leverages the power of Redux for enhanced state management and uses Firebase hosting, database, and Google authentication for secure and reliable user authentication. Additionally, the app features Material UI and Styled Components for a modern and intuitive user interface."
           tech1="Firebase" tech2="React" tech3="Redux" tech4="Styled Components"
           gitHubUrl="https://github.com/1tav0/Slack-Clone"
+          liveLinkUrl="https://slack-clone-2ddf6.firebaseapp.com/"
         />
         <ProjectCard photo={Spotify} title="Spotify" icon={<LibraryMusicIcon />}
           description = "This is a spotify user clone, It leverages Spotify's sign-in authentication to access user playlists and the discover weekly playlist, providing a modern and intuitive user experience."
           tech1="React" tech2="Create Context" tech3="Spotify Open API" tech4="Nodejs"
           gitHubUrl="https://github.com/1tav0/Spotify-Clone"
+          liveLinkUrl="https://main.d3g9yz7plev97d.amplifyapp.com/"
         />
         <ProjectCardRev photo={WhatsApp} title="WhatsApp" icon={<WhatsAppIcon />}
           description="This is a WhatsApp clone built with the MERN stack, incorporating React hooks, Firebase login, and JWT for secure user authentication. The app uses axios and async functions for seamless data retrieval and updates, and implements React context for efficient state management."
