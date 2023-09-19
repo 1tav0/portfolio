@@ -72,3 +72,26 @@ a:hover{
 .header__info > svg{
     margin-right: 0;
 }
+
+
+/* Media query for screens smaller than 768px (typical smartphones) */
+@media (max-width: 768px) {
+    .header {
+      height: 70px; /* Reduce header height for smaller screens */
+      padding-bottom: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .header__wrapper {
+      height: 70px; /* Adjust header wrapper height for smaller screens */
+    }
+  
+    .header__info > h6 {
+      font-size: 8px; /* Reduce font size for menu items on smaller screens */
+      margin-right: 15px; /* Reduce margin for menu items on smaller screens */
+    }
+  
+    .header__info > svg {
+      width: 16px; /* Reduce icon size for smaller screens */
+      height: 16px; /* Reduce icon size for smaller screens */
+    }
+  }

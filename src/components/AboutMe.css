@@ -1,40 +1,70 @@
+
 .aboutme{
-    background-color: #CCCCCC;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.aboutme__wrapper{
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
-    align-items: center; /* Center vertically */
-    padding: 20px;
-    height: 100vh;
+    align-items: center;
+    height: 30vh;
+}
+
+.aboutme__name{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme__left{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .aboutme__info{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.aboutme__info>p{
-    font-size: x-small;
-    font-weight: 400;
-    margin-top: 20px;
-}
-
-.aboutme__left{
-    background-color: white;
-    display: flex;
-    max-height: 41.3vh;
-}
-.aboutme__left>img{
-    background-color: #BBB9B3;
-    height: 300px;
+    /* background-color: aqua; */
 }
 
 .aboutme__info__icons{
+    /* background-color: purple; */
     display: flex;
     justify-content: flex-end;
-    margin: 20px;  
+    gap: 10px;
 }
 
-.aboutme__info__icons > *{
-    margin-right: 15px;
+.image{
+    background-color: #CCCCCC;
+    height: 225px;
+    width: 300px;
+    object-fit: contain;
 }
+
+
+
+/* Media query for screens smaller than 768px (typical smartphones) */
+@media (max-width: 768px) {
+    .aboutme {
+      /* Adjust styles for smaller screens */
+      padding: 10px;
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center text */
+    }
+  
+    .aboutme__left > img {
+      height: auto; /* Make the image responsive */
+      width: 100%; /* Width to 100% for responsiveness */
+    }
+  
+    .aboutme__info__icons {
+      justify-content: center; /* Center icons horizontally */
+      margin-top: 20px;
+    }
+  }

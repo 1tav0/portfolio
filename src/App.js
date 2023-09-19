@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Intro/>
+      {/* <Intro/> */}
       <AboutMe />
       <Skills />
       <Projects />

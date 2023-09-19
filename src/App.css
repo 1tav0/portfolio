@@ -10,3 +10,11 @@ margin:0 !important;
 html{
     scroll-behavior: smooth;
 }
+
+/* Media query for adjusting app styles on smaller screens */
+@media (max-width: 768px) {
+    .app {
+      /* Adjust background color or other styles for smaller screens */
+      background-color: #ECECEC !important;
+    }
+  }
