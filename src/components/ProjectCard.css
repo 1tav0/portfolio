@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
 }
 
 .projectCard__rightSide__title{
@@ -75,4 +76,28 @@
     display: flex;
     align-items: center;
     gap:10px;
+}
+
+@media (max-width: 896px){
+    .project__card__wrapper{
+        border: 1px solid black;
+    }
+
+    .project__card__img{
+        height: auto;
+        width: 130px;
+    }
+
+    .projectCard__rightSide{
+        width: auto;
+    }
+
+    .projectCard__rightSide__center p{
+        font-size: x-small;
+    }
+
+    .project__card{
+        display: flex;
+        flex-direction: column;
+    }
 }

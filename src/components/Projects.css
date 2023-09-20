@@ -40,7 +40,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-
+    gap: 10px;
+    padding-bottom: 10px;
 }
 
 .projects__title__box{
@@ -57,4 +58,17 @@
     width: 100%;
     color: white;
     
+}
+
+
+@media (max-width: 896px){
+    .projects__wrapper__parent{
+        gap: 10px;
+    }
+    .projects__intro h3{
+        font-size: small;
+    }
+    .projects__title__box{
+        width: 370px;
+    }
 }

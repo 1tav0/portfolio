@@ -69,8 +69,8 @@ a:hover{
     display: flex;
     align-items: center;
     font-size: large;
-    gap: 20px;
-    list-style-type: none;
+    /* gap: 20px; */
+    /* list-style-type: none; */
     /* background-color: aqua; */
 }
 
@@ -96,23 +96,52 @@ a:hover{
 
 
 /* Media query for screens smaller than 768px (typical smartphones) */
-@media (max-width: 768px) {
+@media (max-width: 896px) {
     .header {
-      height: 70px; /* Reduce header height for smaller screens */
-      padding-bottom: 10px; /* Reduce padding for smaller screens */
+      height: 60px; /* Reduce header height for smaller screens */
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: auto;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
     }
+
+    /* .header{
+        height: 100px;
+        color: white;
+        position: sticky;
+        top:0;
+        width:100%;
+        transition: all 0.5s;
+        background-color: #121212;
+        z-index: 1;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    } */
   
     .header__wrapper {
-      height: 70px; /* Adjust header wrapper height for smaller screens */
+        height: 70px; /* Adjust header wrapper height for smaller screens */
     }
-  
-    .header__info > h6 {
-      font-size: 8px; /* Reduce font size for menu items on smaller screens */
-      margin-right: 15px; /* Reduce margin for menu items on smaller screens */
+
+    .logo{
+        font-size: 1rem;
     }
-  
-    .header__info > svg {
-      width: 16px; /* Reduce icon size for smaller screens */
-      height: 16px; /* Reduce icon size for smaller screens */
+
+    .button{
+        font-size: 0.1rem;
     }
-  }
+
+    .header__parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+}

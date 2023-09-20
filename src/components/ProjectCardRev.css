@@ -60,3 +60,25 @@
 .project__card__bottom__icon>h3{
     font-size: x-small;
 }
+
+@media (max-width: 896px){
+    .project__card__parent{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .project__card__parent img{
+        height:auto;
+        width: 150px;
+    }
+
+    .project__card__leftside{
+        /* background-color: green; */
+        width: auto;
+    }
+
+    .project__card__middle p{
+        font-size: x-small;
+    }
+}

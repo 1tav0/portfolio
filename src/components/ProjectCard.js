@@ -13,7 +13,7 @@ const ProjectCard = ({ title, icon, photo, description, tech1, tech2, tech3, tec
                         <h4>{title}</h4> {icon}
                     </div>
                     <div className="projectCard__rightSide__center">
-                          <p>{description}</p>
+                        <p>{description}</p>
                         <div className='project__card__tech'>
                             <h3>{ tech1 }</h3>
                             <h3>{ tech2 }</h3>

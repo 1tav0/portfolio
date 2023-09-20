@@ -51,21 +51,23 @@
 
 
 /* Media query for screens smaller than 768px (typical smartphones) */
-@media (max-width: 768px) {
-    .aboutme {
-      /* Adjust styles for smaller screens */
-      padding: 10px;
-      flex-direction: column; /* Stack items vertically */
-      text-align: center; /* Center text */
+@media (max-width: 896px) {
+    .aboutme__info p{
+        font-size: xx-small;
     }
   
-    .aboutme__left > img {
-      height: auto; /* Make the image responsive */
-      width: 100%; /* Width to 100% for responsiveness */
+    .image{
+        height: 120px;
+        width: 120px;
+        object-fit: contain;
     }
-  
-    .aboutme__info__icons {
-      justify-content: center; /* Center icons horizontally */
-      margin-top: 20px;
+
+    .aboutme__info__icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon{
+        font-size: 20px !important;
     }
   }

@@ -26,11 +26,11 @@ const AboutMe = () => {
             </div>
             <div className="aboutme__info__icons">
               <a href={githubProfileUrl} target="_blank" rel="noopener noreferrer" >
-                <GitHubIcon />
+                <GitHubIcon className='icon'/>
               </a>
               <YouTubeIcon />
               <a href={LinkedIn} target="_blank" rel="noopener noreferrer">
-                <LinkedInIcon />
+                <LinkedInIcon className='icon'/>
               </a>
             </div>
           </div>

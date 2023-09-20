@@ -17,3 +17,10 @@
     height: 15px;
     width: 15px;
 }
+
+@media (max-width: 896px){
+    .technology__wrapper__box{
+        gap: 1px;
+        width: 80px;
+    }
+}

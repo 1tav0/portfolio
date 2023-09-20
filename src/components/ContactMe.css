@@ -67,16 +67,11 @@
 
 /* Media query for screens smaller than 768px (typical smartphones) */
 @media (max-width: 768px) {
-    .contact__me__parent {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center items horizontally */
-    }
-  
-    .contact__me__parent > .contact__me__top > h3 {
-      font-size: medium; /* Increase font size for better visibility */
-    }
-  
-    .contact__me__icon > h2 {
-      font-size: small; /* Reduce font size for better fit */
+
+    .contact__me__parent{
+        /* background-color: green; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
     }
   }
