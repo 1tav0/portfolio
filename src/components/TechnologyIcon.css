@@ -1,0 +1,19 @@
+
+.technology__wrapper__box{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border: 1px solid black;
+    justify-content: center;
+    width: 90px;
+    border-radius: 3px;
+}
+
+.name{
+    font-size: x-small;
+}
+
+.technology__wrapper .technology__wrapper__box svg{
+    height: 15px;
+    width: 15px;
+}
