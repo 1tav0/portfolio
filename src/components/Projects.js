@@ -48,6 +48,7 @@ const Projects = () => {
                 description = "This is a Instagram like Social Media platform where a user is able to do all the functionalities of the real Instagram such as follow/unfollow user, upload pictures as posts, like/unlike a post, and have a followers feed for the logged in user."
                 tech1="MongoDB" tech2="Express" tech3="React" tech4="Nodejs"
                 gitHubUrl="https://github.com/1tav0/IG-MERN"
+                liveLinkUrl="https://main.d2av8z7fnock7m.amplifyapp.com/"
               />
               <ProjectCardRev photo={FB} title="Facebook" icon={<FacebookIcon />}
                 description="This is a Facebook clone that uses Google Authentication to sign in, Firebase hosting, FireStore, Redux, Material UI, React + React Hooks, & React flip move animation."
