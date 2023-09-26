@@ -100,6 +100,7 @@ const Projects = () => {
                 description="This is a WhatsApp clone built with the MERN stack, incorporating React hooks, Firebase login, and JWT for secure user authentication. The app uses axios and async functions for seamless data retrieval and updates, and implements React context for efficient state management."
                 tech1="MongoDB" tech2="Express" tech3="React" tech4="Nodejs"
                 gitHubUrl="https://github.com/1tav0/MERN-WHATSAPP-Clone"
+                liveLinkUrl="https://main.d1htref74qjtc2.amplifyapp.com/"
               />
               <ProjectCard photo={Tinder} title="Tinder" icon={<WhatshotIcon />}
                 description = "This is a tinder clone with real time funtionality, data base of pictures needs to be updated live hence no picture shown."
