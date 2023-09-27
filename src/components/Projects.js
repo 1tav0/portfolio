@@ -14,7 +14,7 @@ import Bank from '../images/bank.png'
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
 import Netflix from '../images/netflix.png'
 import MovieIcon from '@mui/icons-material/Movie';
-import Chat from '../images/chat.png'
+import Chat from '../images/MERNchat.png'
 import ChatIcon from '@mui/icons-material/Chat';
 import Slack from '../images/slack.png'
 import Spotify from '../images/spotify.png'
@@ -83,6 +83,7 @@ const Projects = () => {
                 description = "This is MERN full stack chat application where a user can log in create a room chat and another user can log in and join the chat room to message each other."
                 tech1="MongoDB" tech2="Express" tech3="React" tech4="Nodejs"
                 gitHubUrl="https://github.com/1tav0/MERN-CHATAPP"
+                liveLinkUrl="https://main.d3nqgiezxgirok.amplifyapp.com"
               />
               <ProjectCardRev photo={Slack} title="Slack" icon={<MovieIcon />}
                 description="This is a Slack Clone app that works in real time. The app leverages the power of Redux for enhanced state management and uses Firebase hosting, database, and Google authentication for secure and reliable user authentication. Additionally, the app features Material UI and Styled Components for a modern and intuitive user interface."
